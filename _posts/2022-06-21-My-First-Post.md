@@ -69,7 +69,7 @@ title: Some basic Git-bash commands
 
 #### Summary of using Git-bash command in VS-Code
  
-1. Git bash command are useful way to work faster by the programmer. Developer doesn't want to spend their time working with computers basic functionality . They simply want to code the function to work easier in the program.<br>Insted of going all way around to create new folder, file, delete, modify and other various work we can simply write code for thesek ind of setup in terminal. Terminal provides us platform to crete shortcut basis to work in the text-editor.
+1. Git bash command are useful way to work faster by the programmer. Developer doesn't want to spend their time working with computers basic functionality . They simply want to code the function to work easier in the program.<br>Insted of going all way around to create new folder, file, delete, modify and other various work we can simply write code for these kind of setup in terminal. Terminal provides us platform to crete shortcut basis to work in the text-editor.
  
 
 
