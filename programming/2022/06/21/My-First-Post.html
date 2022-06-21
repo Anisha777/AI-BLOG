@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Some basic Git-bash commands | All About Artificial Intelligence</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Some basic Git-bash commands" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Essentials Git commands used in VS-Code" />
+<meta property="og:description" content="Essentials Git commands used in VS-Code" />
+<link rel="canonical" href="https://anisha777.github.io/AI-BLOG/programming/2022/06/21/My-First-Post.html" />
+<meta property="og:url" content="https://anisha777.github.io/AI-BLOG/programming/2022/06/21/My-First-Post.html" />
+<meta property="og:site_name" content="All About Artificial Intelligence" />
+<meta property="og:image" content="https://anisha777.github.io/AI-BLOG/images/Git-bash.png" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-06-21T00:00:00-05:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://anisha777.github.io/AI-BLOG/images/Git-bash.png" />
+<meta property="twitter:title" content="Some basic Git-bash commands" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-06-21T00:00:00-05:00","datePublished":"2022-06-21T00:00:00-05:00","description":"Essentials Git commands used in VS-Code","headline":"Some basic Git-bash commands","image":"https://anisha777.github.io/AI-BLOG/images/Git-bash.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://anisha777.github.io/AI-BLOG/programming/2022/06/21/My-First-Post.html"},"url":"https://anisha777.github.io/AI-BLOG/programming/2022/06/21/My-First-Post.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/AI-BLOG/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://anisha777.github.io/AI-BLOG/feed.xml" title="All About Artificial Intelligence" /><link rel="shortcut icon" type="image/x-icon" href="/AI-BLOG/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" /><script src="https://hypothes.is/embed.js" async></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha512-0doc9hKxR3PYwso42RD1p5ySZpzzuDiOwMrdCEh2WdJZCjcmFKc/wEnL+z8fBQrnHoiNWbo+3fiGkOYXBdQp4A==" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/AI-BLOG/">All About Artificial Intelligence</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/AI-BLOG/about/">About Me</a><a class="page-link" href="/AI-BLOG/search/">Search</a><a class="page-link" href="/AI-BLOG/categories/">Categories</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Some basic Git-bash commands</h1><p class="page-description">Essentials Git commands used in VS-Code</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2022-06-21T00:00:00-05:00" itemprop="datePublished">
+        Jun 21, 2022
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      2 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/AI-BLOG/categories/#Programming">Programming</a>
+        
+      
+      </p>
+    
+
+    </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <ul id="toc" class="section-nav">
+<li class="toc-entry toc-h1"><a href="#git-bash-commands">Git-Bash Commands</a>
+<ul>
+<li class="toc-entry toc-h4"><a href="#introduction">Introduction</a></li>
+<li class="toc-entry toc-h4"><a href="#pwd">pwd</a></li>
+<li class="toc-entry toc-h4"><a href="#ls">ls</a></li>
+<li class="toc-entry toc-h4"><a href="#clear">clear</a></li>
+<li class="toc-entry toc-h4"><a href="#cd">cd</a></li>
+<li class="toc-entry toc-h4"><a href="#mkdir">mkdir</a></li>
+<li class="toc-entry toc-h4"><a href="#cd-1">cd..</a></li>
+<li class="toc-entry toc-h4"><a href="#touch">touch</a></li>
+<li class="toc-entry toc-h4"><a href="#rm">rm</a></li>
+<li class="toc-entry toc-h4"><a href="#rm--rf">rm -rf</a></li>
+<li class="toc-entry toc-h4"><a href="#summary-of-using-git-bash-command-in-vs-code">Summary of using Git-bash command in VS-Code</a></li>
+</ul>
+</li>
+</ul><h1 id="git-bash-commands">
+<a class="anchor" href="#git-bash-commands" aria-hidden="true"><span class="octicon octicon-link"></span></a>Git-Bash Commands</h1>
+
+<h4 id="introduction">
+<a class="anchor" href="#introduction" aria-hidden="true"><span class="octicon octicon-link"></span></a>Introduction</h4>
+
+<blockquote>
+  <p>An application called Git Bash gives operating system users access to the Git command line. It is a command-line shell that enables git on the system’s command line. Version control systems and development processes are supported by the text editor VSCode. It offers resources so a user may create codes without difficulty. These act as prerequisites, thus one should be familiar with them. <br><br>  Git was initially created to facilitate collaboration among programmers working on source code throughout the software development process. Git is a distributed version-control system for monitoring changes in any set of files.
+<br><br>Git command can be written either in Git-bash or itself in VS-Code terminal. Some of the basic Git-bash commands are as follow:</p>
+</blockquote>
+
+<h4 id="pwd">
+<a class="anchor" href="#pwd" aria-hidden="true"><span class="octicon octicon-link"></span></a>pwd</h4>
+
+<blockquote>
+  <p>pwd command refers to <strong>print working directory</strong>. The complete path name of your current directory is written  by the pwd command . There is a / between each directory (slash). The first / stands for the root directory, and the last directory listed is the one you are currently in.</p>
+</blockquote>
+
+<h4 id="ls">
+<a class="anchor" href="#ls" aria-hidden="true"><span class="octicon octicon-link"></span></a>ls</h4>
+
+<blockquote>
+  <p>ls command refers to <strong>list</strong>. All the list of files and folder inside the current directory is enlisted with the help of this command.</p>
+</blockquote>
+
+<h4 id="clear">
+<a class="anchor" href="#clear" aria-hidden="true"><span class="octicon octicon-link"></span></a>clear</h4>
+
+<blockquote>
+  <p>clear command refers to <strong>clearing all the commands</strong>.This command is used to bring the command line on top of the computer terminal.</p>
+</blockquote>
+
+<h4 id="cd">
+<a class="anchor" href="#cd" aria-hidden="true"><span class="octicon octicon-link"></span></a>cd</h4>
+
+<blockquote>
+  <p>cd command refers to <strong>current directory</strong>. It helps to display the current folder we are working on.<br><br>Syntax for using cd command is: <br>cd F : //</p>
+</blockquote>
+
+<h4 id="mkdir">
+<a class="anchor" href="#mkdir" aria-hidden="true"><span class="octicon octicon-link"></span></a>mkdir</h4>
+
+<blockquote>
+  <p>mkdir command refers to <strong>make directory</strong>. Directory refers to any folder.We can make any folder using mkdir command.<br><br>Syntax for using mkdir command is: <br>mkdir “foldername”<br><br>If we don’t want to use double quotation mark for, we an simple write name of folder using _ sign.for example:<br>mkdir folder_name<br><br><strong>Question to arise</strong><br>1. What if we don’t we _ sign?<br>- If we don’t use _ sign while writinf folder name and simply write mkdir folder name, then there will be two folder created with name folder and name.</p>
+</blockquote>
+
+<h4 id="cd-1">
+<a class="anchor" href="#cd-1" aria-hidden="true"><span class="octicon octicon-link"></span></a>cd..</h4>
+
+<blockquote>
+  <p>cd.. command refers to <strong>go back</strong>. This command is used to return back from existing directory path.</p>
+</blockquote>
+
+<h4 id="touch">
+<a class="anchor" href="#touch" aria-hidden="true"><span class="octicon octicon-link"></span></a>touch</h4>
+
+<blockquote>
+  <p>touch command is used to create a file inside any folder.<br><br>Syntax to create  file inside  any folder:<br>touch “file name.extension”</p>
+</blockquote>
+
+<h4 id="rm">
+<a class="anchor" href="#rm" aria-hidden="true"><span class="octicon octicon-link"></span></a>rm</h4>
+
+<blockquote>
+  <p>rm command refers to <strong>remove</strong>.This command is used to remove ani file inside the folder.<br><br>Syntax to remove file from any folder:<br>rm “file name”</p>
+</blockquote>
+
+<h4 id="rm--rf">
+<a class="anchor" href="#rm--rf" aria-hidden="true"><span class="octicon octicon-link"></span></a>rm -rf</h4>
+
+<blockquote>
+  <p>rm -rf command refers to <strong>remove with recursive force</strong>. This command is used to remove a complete folder with its all file.<br><br>Syntax to remove folder:<br>rm -rf “folder name”</p>
+</blockquote>
+
+<h4 id="summary-of-using-git-bash-command-in-vs-code">
+<a class="anchor" href="#summary-of-using-git-bash-command-in-vs-code" aria-hidden="true"><span class="octicon octicon-link"></span></a>Summary of using Git-bash command in VS-Code</h4>
+
+<ol>
+  <li>Git bash command are useful way to work faster by the programmer. Developer doesn’t want to spend their time working with computers basic functionality . They simply want to code the function to work easier in the program.<br>Insted of going all way around to create new folder, file, delete, modify and other various work we can simply write code for thesek ind of setup in terminal. Terminal provides us platform to crete shortcut basis to work in the text-editor.</li>
+</ol>
+
+
+  </div><a class="u-url" href="/AI-BLOG/programming/2022/06/21/My-First-Post.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/AI-BLOG/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/AI-BLOG/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/AI-BLOG/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>Welcome to a blog which is all about Data Science, Programming, Machine Learning, Deep Learning, Computer Vision and Natural Language Processing.</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://www.facebook.com/anisha.dhakal.773776" target="_blank" title="anisha.dhakal.773776"><svg class="svg-icon grey"><use xlink:href="/AI-BLOG/assets/minima-social-icons.svg#facebook"></use></svg></a></li><li><a rel="me" href="https://github.com/Anisha777" target="_blank" title="Anisha777"><svg class="svg-icon grey"><use xlink:href="/AI-BLOG/assets/minima-social-icons.svg#github"></use></svg></a></li><li><a rel="me" href="https://www.linkedin.com/in/anisha-dhakal-231549213" target="_blank" title="anisha-dhakal-231549213"><svg class="svg-icon grey"><use xlink:href="/AI-BLOG/assets/minima-social-icons.svg#linkedin"></use></svg></a></li></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
