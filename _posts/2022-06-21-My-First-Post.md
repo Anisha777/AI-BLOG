@@ -44,7 +44,7 @@ title: Some basic Git-bash commands
 
 
 
->mkdir command refers to **make directory**. Directory refers to any folder.We can make any folder using mkdir command.<br><br>Syntax for using mkdir command is: <br>mkdir "foldername"<br><br>If we don't want to use double quotation mark for, we an simple write name of folder using _ sign.for example:<br>mkdir folder_name<br><br>**Question to arise**<br>1. What if we don't we _ sign?<br>- If we don't use _ sign while writinf folder name and simply write mkdir folder name, then there will be two folder created with name folder and name.
+>mkdir command refers to **make directory**. Directory refers to any folder.We can make any folder using mkdir command.<br><br>Syntax for using mkdir command is: <br>mkdir "foldername"<br><br>If we don't want to use double quotation mark for, we an simple write name of folder using _ sign.for example:<br>mkdir folder_name<br><br>**Question to arise**<br>1. What if we don't we _ sign?<br>- If we don't use _ sign while writing folder name and simply write mkdir folder name, then there will be two folder created with name folder and name.
 
 
 #### cd..
