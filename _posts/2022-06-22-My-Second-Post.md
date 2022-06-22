@@ -1,11 +1,13 @@
 ---
 toc: true
-image: 'images/'py.jpg
+image: 'images/py.jpg'
 layout: post
 description: Here we will be clear why python is essential for every AI programmers.
 categories: [Programming]
 title: Why python in Artificial Intelligence?
 ---
+
+
 # Python- Programming language for AI
 
 #### Introduction to Python Programming
