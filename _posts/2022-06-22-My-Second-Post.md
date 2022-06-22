@@ -15,7 +15,7 @@ title: Why python in Artificial Intelligence?
 >Python is an object-oriented, high-level, dynamically semantic programming language. It is extremely appealing for rapid application development due to its high-level built-in data structures, dynamic typing, and dynamic binding. Python's straightforward syntax prioritizes readability and makes it simple to learn, which lowers the cost of program maintenance. It supports modules and packages, which encourages modularity and code reuse of the program. For all popular platforms, the Python interpreter and the comprehensive standard library are freely distributable and available in source or binary form.
 
 
-### Feature of Python Programming
+#### Feature of Python Programming
 
 >Python can be referred to as a "interpreted language," which, put simply, means that it can be used by the programmer directly to run the program without needing to be first translated into machine language instructions. As a result, it is a sufficient language for usage with an emulator or virtual machine that is based on the native code of an existent machine, which is the language that hardware can understand.<br><br>This high-level programming language is used in challenging situations. In order to be more comprehensive and hence expand their use, high-level languages support arrays, variables, objects, complex arithmetic, Boolean expressions, and other abstract ideas in computer science.<br><br>Python also has a dynamic type system and automatic memory management that support a variety of programming paradigms, including procedural, imperative, object-oriented, and functional programming, to name a few.<br><br>Every operating system can use Python, and its open-source counterpart, CPython, is rapidly gaining popularity.
 
