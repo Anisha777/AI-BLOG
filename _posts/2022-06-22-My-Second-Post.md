@@ -6,9 +6,6 @@ description: Here we will be clear why python is essential for every AI programm
 categories: [Programming]
 title: Why python in Artificial Intelligence?
 ---
-
-
-
 # Python- Programming language for AI
 
 #### Introduction to Python Programming
