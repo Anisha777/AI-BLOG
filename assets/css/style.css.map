@@ -3,11 +3,11 @@
 	"file": "style.css",
 	"sources": [
 		"style.scss",
-		"../../tmp/jekyll-remote-theme-20220630-1-166ksrh/_sass/minima/skins/classic.scss",
-		"../../tmp/jekyll-remote-theme-20220630-1-166ksrh/_sass/minima/initialize.scss",
+		"../../tmp/jekyll-remote-theme-20220702-1-olokav/_sass/minima/skins/classic.scss",
+		"../../tmp/jekyll-remote-theme-20220702-1-olokav/_sass/minima/initialize.scss",
 		"_sass/minima/custom-variables.scss",
-		"../../tmp/jekyll-remote-theme-20220630-1-166ksrh/_sass/minima/_base.scss",
-		"../../tmp/jekyll-remote-theme-20220630-1-166ksrh/_sass/minima/_layout.scss",
+		"../../tmp/jekyll-remote-theme-20220702-1-olokav/_sass/minima/_base.scss",
+		"../../tmp/jekyll-remote-theme-20220702-1-olokav/_sass/minima/_layout.scss",
 		"_sass/minima/custom-styles.scss",
 		"_sass/minima/fastpages-styles.scss",
 		"_sass/minima/fastpages-dracula-highlight.scss"
